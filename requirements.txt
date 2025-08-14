@@ -1,12 +1,15 @@
 fastapi
+uvicorn[standard]
 sqlalchemy
 mysql-connector-python
-python-jose
-passlib
+python-jose[cryptography]
+passlib[bcrypt]
 pydantic
 requests
 sqladmin
 starlette
 alembic
-
-python 3.12
+python-multipart
+wtforms
+googletrans==4.0.0-rc1
+starlette-admin
