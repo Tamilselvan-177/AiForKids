@@ -1,0 +1,12 @@
+fastapi
+sqlalchemy
+mysql-connector-python
+python-jose
+passlib
+pydantic
+requests
+sqladmin
+starlette
+alembic
+
+python 3.12
