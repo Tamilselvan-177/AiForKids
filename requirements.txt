@@ -4,7 +4,7 @@ sqlalchemy
 mysql-connector-python
 python-jose[cryptography]
 passlib[bcrypt]
-pydantic
+pydantic[email]
 requests
 sqladmin
 starlette
