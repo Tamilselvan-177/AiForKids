@@ -13,3 +13,4 @@ python-multipart
 wtforms
 googletrans==4.0.0-rc1
 starlette-admin
+gunicorn
