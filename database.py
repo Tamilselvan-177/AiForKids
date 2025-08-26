@@ -4,7 +4,8 @@ from sqlalchemy.orm import sessionmaker
 import os
 
 # DATABASE_URL = "mysql+mysqlconnector://root:password@localhost:3306/kids"  # Change this
-DATABASE_URL = "mysql+pymysql://root:password@localhost/kids"
+#DATABASE_URL = "mysql+pymysql://root:password@localhost/kids"
+DATABASE_URL = "sqlite:///kids.db"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
